@@ -6,7 +6,7 @@ plot(x,y)
 
 %% fplot
 %if the function is to be f(x)= 8x^2 + 5cos(x) plotted, it is typed as: @ (x) 8*x.^2+5*cos(x).
- fplot(@ (x) x.^2+4*sin(2*x)-1, [-3 3] ) 
+fplot(@ (x) x.^2+4*sin(2*x)-1, [-3 3] ) 
 %plot(x,y, -b%,u,v,‘--r’,t,h,‘g:’) plots y vs. x with a solid blue line, v vs.u with a dashed red line, and h vs. t with
 %a dotted green line.
 
