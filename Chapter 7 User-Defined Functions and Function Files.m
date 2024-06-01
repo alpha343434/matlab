@@ -1,4 +1,4 @@
-% function[input variables] = loan(output variables); %function definition line
+% function [output variables] = loan(input variables); %function definition line
 
 function y = myf(x)
 y = (x.^4.*sqrt(3*x+5)) ./ (x.^2 + 1).^2;
